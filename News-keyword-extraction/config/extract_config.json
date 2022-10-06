@@ -1,0 +1,17 @@
+{
+    "tfidf":{
+        "MAX_news_num":25000
+    },
+    "keybert":{
+        "par_n_gram": 1,
+        "par_top_n": 30,
+        "stopwords": ["財訊", "快報", "編輯部","/"],
+        "model" : "model/bert-base-chinese"
+    },
+    "score":{
+        "title_weight" : 1,
+        "tfidf_weight" : 1,
+        "textrank_weight" : 1,
+        "keybert_weight": 1
+    }
+}

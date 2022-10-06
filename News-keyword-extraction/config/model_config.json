@@ -1,0 +1,7 @@
+{
+    "device" : 0,
+    "batch_size" : 32,
+    "ws_model" : "model/bert-base-chinese-ws",
+    "pos_model" : "model/bert-base-chinese-pos",
+    "ner_model" : "model/bert-base-chinese-ner"
+}
